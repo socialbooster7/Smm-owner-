@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="rw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube Tabs Helper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>📺 YouTube Tabs Helper</h2>
+  <p class="subtitle">Manual helper • 25 tabs per click</p>
+
+  <div class="card">
+    <input id="videoUrl" placeholder="Shyiramo YouTube video link">
+    <input id="totalTabs" type="number" placeholder="Total tabs (ex: 100)">
+    <button onclick="addToQueue()">➕ Add to Queue</button>
+  </div>
+
+  <h3>📋 Video Queue</h3>
+  
+  <table id="videoQueueTable">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Video Link</th>
+        <th>Progress</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Ibisobanuro byongerwa na JavaScript -->
+    </tbody>
+  </table>
+
+  <button class="danger" onclick="clearAll()">🗑️ Clear All</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
